@@ -1,0 +1,173 @@
+/* Importing Google font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: white;
+}
+
+.logo-container .logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.title h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6e45e2;
+}
+
+#about {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: #f5f7fa;
+}
+
+#about h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+    line-height: 1.6;
+}
+
+#skills {
+    padding: 80px 50px;
+    text-align: center;
+    background: #88d3ce;
+    background: linear-gradient(135deg, #88d3ce, #6e45e2);
+    color: white;
+}
+
+#skills h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    font-size: 24px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+#skills ul li:hover {
+    transform: scale(1.05);
+}
+
+#contact {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f5f7fa;
+}
+
+#contact h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#contact .contact-icons {
+    margin-top: 20px;
+}
+
+#contact .contact-icons img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .contact-icons img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
